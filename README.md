@@ -1,41 +1,87 @@
-# 💸 **Finly. Sua amiga financeira inteligente.**
+# 💸 Finly - Sua amiga financeira inteligente
 
-Finly é o nome de um aplicativo de organização de finanças pessoais desenvolvido para o desafio App de Organização de Finanças Pessoais com Vibe Coding, da DIO.
+> Aplicativo de organização de finanças pessoais desenvolvido com Inteligência Artificial conversacional para o desafio *App de Organização de Finanças Pessoais com Vibe Coding* da Digital Innovation One (DIO).
 
-A proposta do aplicativo é simplificar o controle financeiro utilizando Inteligência Artificial como principal meio de interação. Em vez de planilhas ou formulários complexos, a usuária conversa com uma assistente virtual capaz de registrar movimentações financeiras, acompanhar metas, controlar investimentos e fornecer orientações financeiras de forma simples, intuitiva e personalizada.
+---
 
-## 🌐 **Acesse o Projeto:**
+## 🌐 Endereço da Aplicação Publicada
 
-https://finlyfinancas.lovable.app/app
+🔗 **Acesse o Projeto no ar:** [https://finlyfinancas.lovable.app/app](https://finlyfinancas.lovable.app/app)
 
-## 📖 **Sobre o Projeto**
+---
 
-A Finly nasceu da ideia de tornar a organização financeira mais acessível para mulheres, combinando uma identidade visual acolhedora, intuitiva e convidativa com uma experiência simples de usar.
+## 📸 Telas da Aplicação
 
-Muitos aplicativos exigem o preenchimento manual de inúmeras informações, o que acaba tornando o processo cansativo e fazendo com que muitas pessoas abandonem o controle financeiro.
+### 1. Landing Page
+![Landing Page](https://github.com/user-attachments/assets/3ff613bd-c6f5-4642-8bef-b12ce5069c36)
 
-Para resolver esse problema, a Finly utiliza uma interface conversacional baseada em Inteligência Artificial, permitindo que praticamente todas as ações sejam realizadas por meio de mensagens em linguagem natural.
+### 2. Login e Autenticação
+![Login](https://github.com/user-attachments/assets/f432b2f7-d4d0-494f-afa0-9ab84ff34999)
 
-Entre suas principais funcionalidades estão:
+### 3. Dashboard Principal
+![Dashboard](https://github.com/user-attachments/assets/269cf8fa-b465-4499-9f7f-2e5604d8ad13)
 
-- 💬 Registro de receitas e despesas por conversa;
-- 🎯 Criação e acompanhamento de metas financeiras;
-- 📈 Controle de investimentos;
-- 📊 Dashboard financeiro;
-- 📚 Educação financeira personalizada;
-- 🤖 Assistente financeira inteligente.
+### 4. Metas Financeiras
+![Metas](https://github.com/user-attachments/assets/bfff4d12-39eb-4db2-82d6-3a67f7581e72)
 
-🎯 **Objetivo**
+### 5. Controle de Investimentos
+![Investimentos](https://github.com/user-attachments/assets/b77009da-2cce-4c78-a144-1201c3950ddd)
 
-Desenvolver o conceito de um aplicativo que utilize Inteligência Artificial para transformar o controle financeiro em uma experiência simples, acolhedora e intuitiva, reduzindo a necessidade de entradas manuais e incentivando hábitos financeiros saudáveis.
+---
 
-🛠 **Ferramentas Utilizadas**
-- Copilot
-- Lovable
+## 🎯 1. Qual Problema a Aplicação Resolve
 
-## 📄 **PRD (Product Requirements Document)**
-O PRD abaixo foi utilizado como prompt principal para orientar o desenvolvimento do MVP durante as interações com a IA.
+Muitas pessoas (especialmente mulheres que buscam independência financeira) desejam organizar seu dinheiro, mas abandonam o controle rapidamente porque:
+- Os aplicativos convencionais exigem preenchimento manual cansativo de inúmeros campos.
+- As interfaces de planilhas e sistemas bancários são frias, complexas e intimidadoras.
+- Falta acompanhamento humanizado e educação financeira acessível para iniciantes.
 
+A **Finly** resolve isso transformando o controle financeiro em uma **conversa natural**:
+- Em vez de formulários, o usuário apenas digita: *"Gastei R$ 50 no mercado"* ou *"Investi R$ 100 em CDB"*.
+- A IA categoriza, calcula saldos, atualiza metas e fornece dicas financeiras acolhedoras em tempo real.
+- Reduz o atrito de registro diário e constrói hábitos financeiros saudáveis e duradouros.
+
+---
+
+## ✨ Principais Funcionalidades
+
+- 💬 **Registro por Linguagem Natural:** Entradas e saídas registradas diretamente pelo chat com a IA.
+- 🎯 **Gestão de Metas & Reserva de Emergência:** Definição de objetivos com barras visuais de progresso.
+- 📈 **Carteira de Investimentos:** Acompanhamento de aportes por categoria (CDB, Tesouro Selic, FIIs, Ações).
+- 📊 **Dashboard Visual Complementar:** Resumo de saldo, patrimônio e gráficos de distribuição.
+- 📚 **Educação Financeira Descomplicada:** Explicações didáticas sobre conceitos de economia e investimentos.
+- 🧹 **Chat Sempre Limpo com Memória:** O chat abre limpo a cada nova sessão, mas a assistente retém o histórico financeiro intacto.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Plataformas de IA:** Copilot & [Lovable.dev](https://lovable.dev)
+- **Frontend:** React, TypeScript, Tailwind CSS, Lucide React
+- **Backend & Auth:** Supabase (PostgreSQL + Supabase Auth)
+- **Inteligência Artificial:** OpenAI GPT
+- **Visualização de Dados:** Recharts
+
+---
+
+## 🤖 2. Interações com a IA & Evolução do Desenvolvimento
+
+Durante o desenvolvimento do projeto, foram realizadas iterações estruturadas com o Lovable para transformar o conceito em um MVP funcional:
+
+### Primeira Interação
+![Interação 1](https://github.com/user-attachments/assets/08fe9f6d-d82b-4b87-8211-9034076349a9)
+
+### Evolução do Prompt
+![Interação 2](https://github.com/user-attachments/assets/464cfff6-daf6-4248-9521-fd1218f9df85)
+
+### Resultado Obtido
+![Interação 3](https://github.com/user-attachments/assets/23201d0f-5e3b-40ab-b60d-d40f2c7522b3)
+
+---
+
+## 📋 3. PRD (Product Requirements Document) & Mega Prompt
+
+O PRD abaixo foi utilizado como guia mestre para orientar a geração do MVP pela IA:
 ```markdown
 # PRD - Finly
 
@@ -908,49 +954,21 @@ O chat é a principal funcionalidade do produto.
 
 Todo o restante existe para complementar a experiência da assistente.
 ```
-## 🖼️ **Telas da Aplicação**
+---
 
-**Landing Page**
-<img width="2556" height="908" alt="Landing Page" src="https://github.com/user-attachments/assets/3ff613bd-c6f5-4642-8bef-b12ce5069c36" />
-**Login**
-<img width="2558" height="901" alt="Login" src="https://github.com/user-attachments/assets/f432b2f7-d4d0-494f-afa0-9ab84ff34999" />
-**Dashboard**
-<img width="2559" height="904" alt="Dashboard" src="https://github.com/user-attachments/assets/269cf8fa-b465-4499-9f7f-2e5604d8ad13" />
-**Metas Financeiras**
-<img width="2558" height="901" alt="Metas" src="https://github.com/user-attachments/assets/bfff4d12-39eb-4db2-82d6-3a67f7581e72" />
-**Investimentos**
-<img width="2553" height="901" alt="Investimentos" src="https://github.com/user-attachments/assets/b77009da-2cce-4c78-a144-1201c3950ddd" />
+## 💭 4. Reflexão e Aprendizados (Vibe Coding)
 
-## 🤖 **Interações com a IA**
-Durante o desenvolvimento do projeto, foram realizadas diversas interações com o Lovable para transformar o PRD em um MVP funcional.
+### ✅ O que funcionou bem?
+O resultado final superou as expectativas estéticas e funcionais. A IA compreendeu perfeitamente o tom de voz acolhedor e a hierarquia de cores da paleta (*Peony, Pistachio e Burgundy*), transformando regras complexas em uma interface moderna, amigável e funcional.
 
-**Primeira interação**
+### ⚠️ O que não funcionou como o esperado e ajustes necessários?
+Na primeira interação, utilizei um texto longo e descritivo gerado pelo Copilot, mas a IA do Lovable teve dificuldade de processar termos ambíguos. Percebi que o Lovable performa muito melhor com prompts estruturados no formato de PRD técnico (com requisitos funcionais, regras de negócio e design system explícitos). Ao reenviar o prompt estruturado em Markdown, a qualidade do código gerado aumentou drasticamente.
 
-<img width="673" height="221" alt="Interação 1" src="https://github.com/user-attachments/assets/08fe9f6d-d82b-4b87-8211-9034076349a9" />
+### 📚 O que aprendi sobre conversar com IAs?
+A clareza do resultado depende diretamente do nível de detalhe e contexto fornecido. Definir restrições negativas (o que a aplicação **não** deve ser ou fazer) é tão crucial quanto definir o que ela deve fazer.
 
-**Evolução do Prompt**
+---
 
-<img width="679" height="424" alt="Interação 2" src="https://github.com/user-attachments/assets/464cfff6-daf6-4248-9521-fd1218f9df85" />
+## 👩💻 Autora
 
-**Resultado**
-
-<img width="803" height="709" alt="Interação 3" src="https://github.com/user-attachments/assets/23201d0f-5e3b-40ab-b60d-d40f2c7522b3" />
-
-## **💭 Reflexão**
-
-✅ **O que funcionou bem?**
-
-O resultado ficou muito próximo do que eu imaginei. A IA conseguiu transformar o conceito descrito no PRD em uma interface organizada, moderna e intuitiva.
-
-⚠️ **O que não funcionou como o esperado?**
-
-Os créditos do Lovable são limitados e o valor da versão paga não é muito acessível. Além disso, na primeira interação utilizei o texto gerado pelo Copilot, mas percebi que o Lovable interpreta melhor instruções mais estruturadas e voltadas para desenvolvimento. Após reenviar o prompt em um formato mais adequado, os resultados melhoraram significativamente.
-
-📚**O que aprendi sobre conversar com IAs?**
-
-Aprendi que quanto mais contexto, detalhes e objetivos forem fornecidos, melhor a IA compreende a proposta. A qualidade do resultado está diretamente relacionada à clareza e à estrutura do prompt utilizado.
-
-## 👩‍💻 **Autora**
-Letícia Sousa
-
-Projeto desenvolvido como parte do desafio App de Organização de Finanças Pessoais com Vibe Coding, da DIO.
+Desenvolvido por **Letícia Sousa** como parte do Desafio de Projeto da [Digital Innovation One (DIO)](https://web.dio.me/).
